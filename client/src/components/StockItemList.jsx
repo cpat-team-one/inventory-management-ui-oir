@@ -15,7 +15,6 @@ import "../pattern-components/patterns.scss";
 class StockItemList extends Component {
   title = 'Stock Items';
   subtitle = 'This is the current inventory of items';
-
   columns = [
     "name",
     "description",
@@ -64,7 +63,7 @@ class StockItemList extends Component {
 
     this.setState({
       data: await this.props.stockService.listStockItems()
-    });
+    })
   }
 
   onRowClick = id => {
