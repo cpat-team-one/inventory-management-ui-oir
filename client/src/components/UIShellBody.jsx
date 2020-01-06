@@ -1,6 +1,5 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "../pattern-components/patterns.scss";
-
 import StockItemList from "./StockItemList";
 
 class UIShellBody extends Component {
