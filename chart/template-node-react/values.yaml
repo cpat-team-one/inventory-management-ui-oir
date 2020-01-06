@@ -6,8 +6,6 @@ apiHost: "inventory-management-bff-oir:80"
 
 replicaCount: 1
 
-apiHost: ""
-
 image:
   repository: replace
   tag: replace
