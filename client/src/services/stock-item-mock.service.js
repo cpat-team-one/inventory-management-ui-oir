@@ -1,9 +1,9 @@
-import timer from '../util/timer';
+import timer from '../util/timer'
 
-export class StockItemMockService {
-  async listStockItems() {
-    // wait 1 second before returning data
-    await timer(1000);
+export class StockItemMockService { 
+  async listStockItems() { 
+
+    await timer
 
     return [
       {
@@ -12,7 +12,7 @@ export class StockItemMockService {
         "stock": 10,
         "unitPrice": 100.0,
         "picture": "test",
-        "manufacturer": "unknown",
+        "manufacturer": "Microsoft",
       },
       {
         "name": "Item 2",
@@ -30,6 +30,6 @@ export class StockItemMockService {
         "picture": "test1",
         "manufacturer": "Sony",
       }
-    ];
+    ]; 
   }
 }

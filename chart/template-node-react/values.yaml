@@ -2,9 +2,10 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 global: {}
-apiHost: "inventory-management-bff-oir:80"
 
 replicaCount: 1
+
+apiHost: "inventory-management-bff-oir:80"
 
 image:
   repository: replace
@@ -27,7 +28,7 @@ ingress:
     requestType: web
     binding:
       name: "binding-mooc-cpat-ocp01-appid"
-      namespace: dev-oir
+      namespace: "tools"
 
 #  host: hello
   namespaceInHost: true
