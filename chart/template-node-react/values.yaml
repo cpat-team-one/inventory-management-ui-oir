@@ -29,7 +29,7 @@ ingress:
     requestType: web
     binding:
       name: "binding-mooc-cpat-ocp01-appid"
-      namespace: dev
+      namespace: dev-oir
 
 #  host: hello
   namespaceInHost: true
